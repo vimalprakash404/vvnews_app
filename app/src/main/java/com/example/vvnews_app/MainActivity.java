@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.webx);
 
         // loading http://www.google.com url in the WebView.
-        webView.loadUrl("http://192.168.20.5:8000");
+        webView.loadUrl("http://192.168.43.163:8000");
         webView.setWebViewClient(new WebViewClient()
         {
             @Override
